@@ -20,7 +20,7 @@ st.markdown("""
 st.title("🔐 Cyber Crime in India (2002–2020)")
 
 # --- Load and Clean Data ---
-df = pd.read_csv("cc.csv")
+df = pd.read_csv("Dataset.csv")
 df.fillna(0, inplace=True)
 df.columns = df.columns.astype(str)
 df['State/UT'] = df['State/UT'].str.strip()
