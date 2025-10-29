@@ -1,4 +1,8 @@
 streamlit
 pandas
-plotly
+numpy
 matplotlib
+seaborn
+plotly
+streamlit-aggrid
+Pillow
